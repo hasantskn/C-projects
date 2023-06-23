@@ -346,7 +346,7 @@ int main() {
     printf("\n\xB2\xB2 Password => ");
     scanf("%s", pass);
 
-    if (strcmp(id, "admin") == 0 && strcmp(pass, "hasan") == 0) {
+    if (strcmp(id, "admin") == 0 && strcmp(pass, "1234") == 0) {
         gotoxy(60, 20);
         printf("\n\nLogin Successful...");
         getchar();
